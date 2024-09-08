@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample GUI Mockup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #f1f1f1;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 2px solid #ccc;
+        }
+        .navbar button {
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            background-color: white;
+            cursor: pointer;
+        }
+        .filter-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .filter-section input {
+            padding: 10px;
+            width: 200px;
+            margin-right: 10px;
+        }
+        .filter-section button {
+            padding: 10px 20px;
+            margin-right: 10px;
+        }
+        .filters {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            text-align: center;
+            color: red;
+        }
+        .models {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .model-card {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+        }
+        .model-card a {
+            color: red;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .compare-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .visualization {
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <button>Navbar: Home</button>
+        <button>My Queries</button>
+        <button>AI Model Library</button>
+        <button>Help</button>
+    </div>
+
+    <!-- Filter section -->
+    <div class="filter-section">
+        <input type="text" placeholder="Enter your query here...">
+        <button>Filter</button>
+        <button>Sort</button>
+    </div>
+
+    <!-- Filters applied -->
+    <div class="filters">
+        Filters: Cost [Low to High], Performance [High to Low], Ethical Compliance [✔]
+    </div>
+
+    <!-- AI Models -->
+    <div class="models">
+        <div class="model-card">
+            <h3>Model A</h3>
+            <p>Cost: $</p>
+            <p>Performance: High</p>
+            <a href="#">Details</a>
+            <a href="#">Compare</a>
+        </div>
+        <div class="model-card">
+            <h3>Model B</h3>
+            <p>Cost: $</p>
+            <p>Performance: High</p>
+            <a href="#">Details</a>
+            <a href="#">Compare</a>
+        </div>
+        <div class="model-card">
+            <h3>Model C</h3>
+            <p>Cost: $</p>
+            <p>Performance: High</p>
+            <a href="#">Details</a>
+            <a href="#">Compare</a>
+        </div>
+    </div>
+
+    <!-- Compare section -->
+    <div class="compare-section">
+        Compare Selected: <a href="#">[Model A]</a> <a href="#">[Model B]</a> <a href="#">[Model C]</a>
+    </div>
+
+    <!-- Visualization section -->
+    <div class="visualization">
+        Visualization Area: Graphs and Charts
+    </div>
+
+</body>
+</html>
